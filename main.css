@@ -1,0 +1,52 @@
+h1{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+form input,
+form button{
+    display: block;
+    padding: 6px;
+    margin-bottom: 10px;
+    width:120px;
+    border-radius: 7px;
+    border-style:groove;
+    border: 2px solid black;
+
+}
+
+form button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.error-message{
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-top: 5px;
+    display: none;
+    width: 170px;
+}
+
+.success-message{
+    padding: 8px;
+    background-color: rgb(94, 144, 243);;
+    color: #fff;
+    margin-top: 5px;
+    display: none;
+    width: 140px;
+}
+
+input.error{
+    border-color: red;
+    color: red;
+    outline-color: red ;
+}
+
+.message{
+    display: block;
+    width: 170px;
+}
